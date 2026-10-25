@@ -1,0 +1,27 @@
+
+/* Global styles for the Offline Notes App */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Responsive layout for mobile devices */
+@media (max-width: 600px) {
+  body {
+    min-width: 320px;
+  }
+}
